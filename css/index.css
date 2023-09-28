@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-image: url(/Bilder/garageImg.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    height: 100vh; /* This ensures the background covers the entire viewport height */
+}
+
+
+
+#container{
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
+   
+}
+
+
+
+
+
+h3{
+    margin-bottom: 50px;
+}
+
+
+#button-link {
+    font-size: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(209, 8, 8); /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer;
+  }
+  
+  #button-link:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+    color: black;
+  }
+
+  
+
+
